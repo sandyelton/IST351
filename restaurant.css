@@ -1,0 +1,7 @@
+body {background-image: url("images/Mercer.jpg");}
+header {text-align: center; font-family: 'Lucida Sans';}
+#center {text-align: center;}
+#button {text-align: center;}
+#left {text-align: left;}
+#plate {text-align: center;}
+#check {float: right; text-align: left; background-image: url("images/paper2.jfif");}

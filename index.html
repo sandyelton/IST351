@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sandys Restaurant</title>
+    <link rel="stylesheet" type="text/css" href="restaurant.css">
+    <script src=restaurant.js></script>
+</head>
+
+<body>
+    <header>Sandys Restaurant</header>
+        <div>
+            <table style="width: 100%;">
+                <tr>
+                    <th id="left">Item</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+            <script>writeRow();</script>
+            </table>
+        </div>
+
+            <div id="button">
+                <button onclick="window.location.reload()" id="refresh">View Order</button>
+                <button onclick="clearOrder()" id="btn">Clear Order</button>
+                <button onclick="showPlate()" id="plt">Hide Plate</button>
+            </div>
+
+            <div id="plate">
+                <img src="images/Spoon.gif">
+                <img src="images/SaladFork.gif">
+                <img src="images/Fork.gif">
+                <img src="images/Platter.jpg" width="500" height="500">
+                <img src="images/Knife.gif">
+                <img src="images/WaterGlass.gif">
+                <script>showOrder();</script>
+
+                <table id="check">
+                    <script>addPrice();</script>
+                </table>
+            </div>
+
+    
+</body>
+</html>
