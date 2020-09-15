@@ -1,0 +1,12 @@
+body {background-color: blue;}
+header {text-align: center; font-family: 'sans-serif'; font-size: 38px; font-weight: bold; color:white; background-color:rgb(63, 63, 63);}
+#center {text-align: center;}
+#left {text-align: left;}
+#button {text-align: center;padding-right:25%;}
+#price {text-align: right;}
+#name {text-align: left;}
+#check {float: right; text-align: left; background-image: url("images/check.jpg");}
+td {font-size: 18px;}
+th {font-size: 24px;}
+button {font-size:18px;}
+
